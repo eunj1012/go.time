@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  background-color: bisque;
+}
+
+h1{
+    padding-bottom: 10px;
+}
+
+.gif{
+  z-index: -5;
+  height: 100%;
+  padding-top: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.datetime{
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  width: 600px;
+  padding: 10px 5px;
+  border: 3px solid black;
+  border-radius: 15px;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+
+.time{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 4px;
+}
